@@ -1,0 +1,7 @@
+-- copy the below env variables in a .env file in the root folder
+
+PROJECT_NAME=
+NODE_ENV=
+PORT=
+CLIENT_BASE_URL=
+API_BASE_URL=
