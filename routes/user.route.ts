@@ -50,7 +50,7 @@ userRouter.get("/", (req, res) => {
  * @param {express.Response} res - The Express response object to send the updated user data or an error response.
  * @returns {Promise<void>} - A Promise that resolves when the response is sent.
  */
-userRouter.post("/:id", async (req, res) => {
+userRouter.put("/:id", async (req, res) => {
   try {
     const { id } = req.params;
 
